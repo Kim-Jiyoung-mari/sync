@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css"></href>
+
+    <!-- 디자인파일 -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/index.css">
+
+    <!-- 스크립트 -->
+    <script src="./script/index.js" defer></script>
+    <title>SYNK Official | Bento Layout</title>
+</head>
+<body>
+    <header style="padding: 10px 0;">
+        <div class="header_wrap">
+            <h1><a href="./index.html"><img src="./images/logo.png" alt="싱크 SYNK"></a></h1>
+            <nav class="nav_right">
+                <a href="#" class="theme_btn" style="padding-right: 5px;"><img src="./images/dark_mode.png" alt="다크모드"></a>
+                <a href="#" class="settings"><img src="./images/settings.png" alt="설정"></a>
+            </nav>
+        </div>
+    </header>
+    <section class="main">
+        <div class="bento_grid">
+            <div class="card hero">
+                <div class="hero_text" style="z-index: 2;">
+                    <p class="sub_txt" style="font-weight: 700; font-size: 1.25rem; color: #FFFFFF;">당신의 모든 일상이 완벽하게 동기화되는 순간,</p>
+                    <h2 class="title" style="font-weight: 800; font-size: 2.50rem; color: #FFFFFF">SYNK :</h2>
+                    <p style="font-weight: 700; font-size: 1.88rem; color: #FFFFFF;">Seamless <span class="accent_blue" style="font-weight: 700; font-size: 1.88rem">Life.</span></p>
+                </div>
+                <p class="hero_sub" style="z-index: 2;">복잡한 기기도, 흩어진 데이터도 하나의 대시보드에서,<br>당신의 삶을 가장 아름다운 그리드로 재구성합니다.</p>
+            </div>
+
+            <div class="card control">
+                <div class="card_text" style="z-index: 2;">
+                    <h3 class="title">Smart Control</h3>
+                    <p class="content" style="color: #FFFFFF;">지금 우리집 상태<br><span style="font-weight: 300; font-size: 0.88rem; color: var(--accent-green);">Current Temp: 24°C</span></p>
+                </div>
+                <div class="control_state" style="z-index: 2;">
+                    <input type="checkbox" name="state_on" id="state_on">
+                    <label for="state_on">
+                        <span class="switch"></span>
+                        <span class="switch_state"></span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="card step">
+                <div class="card_text">
+                    <h3 class="title">Health SYNC</h3>
+                    <p class="content">걸음 수</p>
+                </div>
+                <div class="step_count">
+                    <p><span>156</span> / <span class="accent_green">10,000</span></p>
+                </div>
+            </div>
+
+            <div class="card schedule">
+                <h3 class="title">Daily Schedule</h3>
+                <div class="daily_contents">
+                    <p class="list"><span class="plan_time">10:00</span><span class="plan_txt">UI Design</span></p>
+                    <p class="list" style="padding: 10px 0;"><span class="plan_time">13:00</span><span class="plan_txt">Team Sync</span></p>
+                    <p class="list"><span class="plan_time">17:00</span><span class="plan_txt">Gym Session</span></p>
+                </div>
+                <a href="#" class="plan_add"><img src="./images/add.png" alt="일정추가"></a>
+            </div>
+
+            <div class="card connectivity">
+                <div class="card_text">
+                    <h3 class="title">Connectivity</h3>
+                    <p class="content">동기화 완료</p>
+                </div>
+                <div class="active_state" style="display: flex; flex-flow: row nowrap; align-items: center;">
+                    <img src="./images/active.png" alt="동기화 활성화" style="padding-right: 10px;"><span class="accent_green">Active</span>
+                </div>
+            </div>
+
+            <div class="card health">
+                <div class="card_text">
+                    <h3 class="title">Heart Rate</h3>
+                    <p class="content">심박수</p>
+                </div>
+                <div class="heart_state" style="display: flex; flex-flow: row nowrap; align-items: center; font-weight: 500; font-size: 1.25rem;">
+                    <img src="./images/heart.png" alt="심박수" style="padding-right: 10px;">75<span class="accent_green" style="padding-left: 5px; font-size: 1.0rem;">BPM</span>
+                </div>
+            </div>
+
+            <div class="card download">
+                <h3 class="title">Download App</h3>
+                <div class="application" style="text-align: center;">
+                    <a href="#" class="app" style="padding-right: 10px;"><img src="./images/ios_app.png" alt="앱스토어"></a>
+                    <a href="#" class="app"><img src="./images/play_store.png" alt="플레이스토어"></a>
+                </div>
+            </div>
+    </div>
+    </section>
+</body>
+</html>
